@@ -1,5 +1,5 @@
 # rdt_transform_for_tiny_ml_signal_classifiers
-**iRDT:** A transform with **only 16 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
+**iRDT:** A transform with **at most 20 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
 **No multipliers**, **simple algorithm**, one can apply it for various signals by optimzing the delays in the algorithm. 
 
 Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML context 
