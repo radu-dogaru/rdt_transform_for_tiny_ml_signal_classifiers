@@ -1,13 +1,13 @@
 # rdt_transform_for_tiny_ml_signal_classifiers
-**NRDT:** A transform with **only 16 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
+**iRDT:** A transform with **only 16 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
 **No multipliers**, **simple algorithm**, one can apply it for various signals by optimzing the delays in the algorithm. 
 
 Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML context 
 
-Copyright Radu DOGARU radu.dogaru@upb.ro 
-Last update 20 July 2025 
+Copyright Radu and Ioana DOGARU radu.dogaru@upb.ro 
+Last update 20 July 2025, 23 oct. 2025.  
 
-It represents a revised and simplified code replacement for the older RDT Python code provided in https://github.com/radu-dogaru/NL-CNN-RDT-based-sound-classification- 
+It represents a revised, optimized and simplified code replacement for the older RDT Python code provided in https://github.com/radu-dogaru/NL-CNN-RDT-based-sound-classification-  including JIT and fixed-point (INT32). 
 
 For facile access to datasets in  examples, it is prefferable to run the notebook on Kaggle
 <a href="https://colab.research.google.com/github/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/nrdt-2025.ipynb">
@@ -15,6 +15,8 @@ For facile access to datasets in  examples, it is prefferable to run the noteboo
 </a>
 
 **Relevant papers** (please cite)
+
+[0] R. Dogaru and I. Dogaru, "Why RDT ?, "Computational aspects in favor of the RDT transform", oct. 2025 here [https://github.com/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/why_RDT.pdf]
 
 [1] R. Dogaru and I. Dogaru, "A low complexity solution for epilepsy detection using an improved version of the reaction-diffusion transform," 2017 5th International Symposium on Electrical and Electronics Engineering (ISEEE), Galati, Romania, 2017, pp. 1-6, doi: 10.1109/ISEEE.2017.8170678.
 https://ieeexplore.ieee.org/document/8170678  
