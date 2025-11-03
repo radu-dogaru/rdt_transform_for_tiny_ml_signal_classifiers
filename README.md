@@ -1,8 +1,10 @@
 # rdt_transform_for_tiny_ml_signal_classifiers
-**iRDT:** A transform with **at most 25 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
+## iRDT: 
+A transform with **at most 25 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
 **No multipliers**, **simple algorithm**, one can apply it for various signals by optimzing the delays in the algorithm. 
 
-Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML context 
+Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML context. 
+iRDT is implemented here as function nrdt_2025z()
 
 Copyright Radu and Ioana DOGARU radu.dogaru@upb.ro 
 Last update: 23 oct. 2025.  
@@ -27,7 +29,7 @@ https://ieeexplore.ieee.org/document/10010234
 
 <img width="480" height="360" alt="RDT_explain" src="https://github.com/user-attachments/assets/2a6c6523-7a5d-4153-9dbc-569c8dc30f91" />
 
-##History 
+## History 
 The RDT idea emerged in 2000's inspired from cellular-automata works in the context of finding some conveninet measure to quantify numerically emergent behaviors. See more in:  https://ieeexplore.ieee.org/document/1630267
 
 Later, in 2007 we first expanded it succesfully (introducing the idea of sub-sampling in some m-channels) to sound recognition problems. See more in: https://ieeexplore.ieee.org/document/4410603 
