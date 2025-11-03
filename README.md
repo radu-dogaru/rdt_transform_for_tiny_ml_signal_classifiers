@@ -1,11 +1,11 @@
 # rdt_transform_for_tiny_ml_signal_classifiers
-**iRDT:** A transform with **at most 20 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
+**iRDT:** A transform with **at most 25 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
 **No multipliers**, **simple algorithm**, one can apply it for various signals by optimzing the delays in the algorithm. 
 
 Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML context 
 
 Copyright Radu and Ioana DOGARU radu.dogaru@upb.ro 
-Last update 20 July 2025, 23 oct. 2025.  
+Last update: 23 oct. 2025.  
 
 It represents a revised, optimized and simplified code replacement for the older RDT Python code provided in https://github.com/radu-dogaru/NL-CNN-RDT-based-sound-classification-  including JIT and fixed-point (INT32). 
 
@@ -14,7 +14,8 @@ For facile access to datasets in  examples, it is prefferable to run the noteboo
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-**Relevant papers** (please cite)
+## Citing This Work
+**Relevant papers** 
 
 [0] R. Dogaru and I. Dogaru, "Why RDT ?, "Computational aspects in favor of the RDT transform", oct. 2025 here [https://github.com/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/why_RDT.pdf]
 
