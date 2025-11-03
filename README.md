@@ -31,7 +31,7 @@ https://ieeexplore.ieee.org/document/10010234
 <img width="480" height="360" alt="RDT_explain" src="https://github.com/user-attachments/assets/2a6c6523-7a5d-4153-9dbc-569c8dc30f91" />
 
 ## History 
-The RDT idea emerged in 2000's inspired from cellular-automata works in the context of finding some convenient measure to quantify various emergent behaviors. See more in:  https://ieeexplore.ieee.org/document/1630267
+The RDT idea emerged in the 2000s inspired from cellular-automata works in the context of finding some convenient measure to quantify various emergent behaviors. See more in:  https://ieeexplore.ieee.org/document/1630267
 
 Later, in 2007 we first expanded it succesfully (introducing the idea of sub-sampling in some m-channels) to sound recognition problems. See more in: https://ieeexplore.ieee.org/document/4410603 
 
