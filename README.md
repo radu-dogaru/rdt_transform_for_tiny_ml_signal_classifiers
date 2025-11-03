@@ -1,7 +1,8 @@
 # rdt_transform_for_tiny_ml_signal_classifiers
-## iRDT: 
+## The iRDT transform: 
 A transform with **at most 25 code lines**, proved so far a convenient substitute for more sophisticated transforms (e.g. MFCCs) in various signal recognition problems. 
-**No multipliers**, **simple algorithm**, one can apply it for various signals by optimzing the delays in the algorithm. 
+**No multipliers**, **simple algorithm**, one can apply it for various signals by optimzing the delays in the algorithm.
+iRDT stands from improved RDT (optimized for high speed using JIT compiler) 
 
 Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML context. 
 iRDT is implemented here as function nrdt_2025z()
@@ -30,9 +31,9 @@ https://ieeexplore.ieee.org/document/10010234
 <img width="480" height="360" alt="RDT_explain" src="https://github.com/user-attachments/assets/2a6c6523-7a5d-4153-9dbc-569c8dc30f91" />
 
 ## History 
-The RDT idea emerged in 2000's inspired from cellular-automata works in the context of finding some conveninet measure to quantify numerically emergent behaviors. See more in:  https://ieeexplore.ieee.org/document/1630267
+The RDT idea emerged in 2000's inspired from cellular-automata works in the context of finding some convenient measure to quantify various emergent behaviors. See more in:  https://ieeexplore.ieee.org/document/1630267
 
 Later, in 2007 we first expanded it succesfully (introducing the idea of sub-sampling in some m-channels) to sound recognition problems. See more in: https://ieeexplore.ieee.org/document/4410603 
 
-Since then it proved a convenient feature for either audio or bio-medical signals, competing well against traditional spectrogram algorithms. See more here: https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Full%20Text%20Only%22:%22reaction-diffusion%20transform%22)%20AND%20(%22Authors%22:Dogaru)  
+Since then, it proved to be a convenient feature extractor for either audio or bio-medical signals, competing well against traditional spectrogram algorithms. See more here: https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Full%20Text%20Only%22:%22reaction-diffusion%20transform%22)%20AND%20(%22Authors%22:Dogaru)  
 
