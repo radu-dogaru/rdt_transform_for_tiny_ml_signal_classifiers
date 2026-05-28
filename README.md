@@ -8,7 +8,7 @@ Particularly **useful for HW-oriented devices** (MCU, FPGAs) in the Tiny-ML cont
 iRDT is implemented here as function nrdt_2025z()
 
 Copyright Radu and Ioana DOGARU radu.dogaru@upb.ro 
-Last update: 23 oct. 2025.  
+Last update: 28 May 2026.  
 
 It represents a revised, optimized and simplified code replacement for the older RDT Python code provided in https://github.com/radu-dogaru/NL-CNN-RDT-based-sound-classification-  including JIT and fixed-point (INT32). 
 
