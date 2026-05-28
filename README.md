@@ -13,7 +13,7 @@ Last update: 23 oct. 2025.
 It represents a revised, optimized and simplified code replacement for the older RDT Python code provided in https://github.com/radu-dogaru/NL-CNN-RDT-based-sound-classification-  including JIT and fixed-point (INT32). 
 
 For facile access to datasets in  examples, it is prefferable to run the notebook on Kaggle
-<a href="https://colab.research.google.com/github/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/nrdt-2025.ipynb">
+<a href="https://colab.research.google.com/github/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/nrdt_2025.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
