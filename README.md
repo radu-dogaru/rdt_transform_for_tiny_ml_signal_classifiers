@@ -19,6 +19,7 @@ For facile access to datasets in  examples, it is prefferable to run the noteboo
 
 ## Citing This Work
 **Relevant papers** 
+Radu Dogaru & Ioana Dogaru, [Recent talk (sept. 2026)](https://github.com/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/ZASTR2026_Dogaru_.pdf) exploring iRDT for various problems 
 
 [0] R. Dogaru and I. Dogaru, "Why RDT ?, "Computational aspects in favor of the RDT transform", oct. 2025 here [https://github.com/radu-dogaru/rdt_transform_for_tiny_ml_signal_classifiers/blob/main/why_RDT.pdf]
 
